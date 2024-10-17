@@ -42,7 +42,7 @@ export default function Head() {
                 </div>
                 <div className='bg-blue-500 md-lg:pt-20 lg:w-1/2 lg:h-1/3 lg:pb-10 relative lg:left-56 lg:bottom-20 lg:pt-16 lg:pl-6 lg:pr-4 w-9/12 md:pt-28 md:pr-10 smm:pt-12 h-[30vw] bottom-24 left-0 pt-16 pl-11 pr-5   clip-custom2'>
                     <h1 className='text-xl font-bold text-gray-100 smm:text-lg'>Preparing for Peak Season: Black Friday, Cyber Monday, Christmas and Beyond </h1>
-                    <p className='text-sm text-gray-100 mt-3 smm:text-xs sm:text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero inventore laborum autem. Praesentium suscipit vitae maiores, accusamus molestias et, quibusdam laudantium, id temporibus natus quia voluptatibus ?</p>
+                    <p className='text-sm text-gray-100 mt-3 smm:text-xs sm:text-sm'>Lorem ipsum dolor sit amet cnsectetur adipisicing elit. Libero inventore laborum autem. Praesentium suscipit vitae maiores, accusamus molestias et, quibusdam laudantium, id temporibus natus quia voluptatibus ?</p>
                 </div>
 
                 <div className='bg-blue-300 w-80 h-16 relative left-60 clip-custom p-5 smm:left-[28vw]  lg:left-[37vw] mb-20'>
