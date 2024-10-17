@@ -45,7 +45,7 @@ export default function Head() {
                     <p className='text-sm text-gray-100 mt-3 smm:text-xs sm:text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero inventore laborum autem. Praesentium suscipit vitae maiores, accusamus molestias et, quibusdam laudantium, id temporibus natus quia voluptatibus ?</p>
                 </div>
 
-                <div className='bg-blue-300 w-80 h-16 relative left-60 clip-custom p-5 smm:left-[28vw]  lg:left-[37vw]'>
+                <div className='bg-blue-300 w-80 h-16 relative left-60 clip-custom p-5 smm:left-[28vw]  lg:left-[37vw] mb-20'>
 
                     {bar1 ?
                         <>
