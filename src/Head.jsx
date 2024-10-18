@@ -6,28 +6,7 @@ import { useState } from 'react'
 
 export default function Head() {
 
-    const [bar1, setBar1] = useState(false)
-    const [bar2, setBar2] = useState(false)
-    const [bar3, setBar3] = useState(false)
-
-    function bar1change() {
-        setBar1(true)
-        setBar2(false)
-        setBar3(false)
-    }
-
-    function bar2change() {
-        setBar1(false)
-        setBar2(true)
-        setBar3(false)
-    }
-
-    function bar3change() {
-        setBar1(false)
-        setBar2(false)
-        setBar3(true)
-    }
-
+    
 
     return (
         <>
@@ -45,24 +24,7 @@ export default function Head() {
                     <p className='text-sm text-gray-100 mt-3 smm:text-xs sm:text-sm'>Lorem ipsum dolor sit amet cnsectetur adipisicing elit. Libero inventore laborum autem. Praesentium suscipit vitae maiores, accusamus molestias et, quibusdam laudantium, id temporibus natus quia voluptatibus ?</p>
                 </div>
 
-                <div className='bg-blue-300 w-80 h-16 relative left-60 clip-custom p-5 smm:left-[28vw]  lg:left-[37vw] mb-20'>
-
-                    {bar1 ?
-                        <>
-                            <a className='text-blue-900 font-semibold underline decoration-orange-600 decoration-4 m-2 cursor-pointer'>All</a>
-                        </>
-                        : <a className='text-blue-900 m-2 cursor-pointer' onClick={bar1change}>All</a>}
-
-                    {bar2 ?
-                        <>
-                            <a className='text-blue-900 font-semibold underline decoration-orange-600 decoration-4 m-3 cursor-pointer' onClick={bar2change}>Articles</a>
-                        </> : <a className='text-blue-900 m-3 cursor-pointer' onClick={bar2change}>Articles</a>}
-
-                    {bar3 ?
-                        <>
-                            <a className='text-blue-900 m-1 font-semibold underline decoration-orange-600 decoration-4 cursor-pointer' onClick={bar3change}>Product Updates</a>
-                        </> : <a className='text-blue-900 m-1 cursor-pointer' onClick={bar3change}>Product Updates</a>}
-                </div>
+                
             </div>
         </>
     )
